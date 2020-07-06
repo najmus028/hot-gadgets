@@ -1,0 +1,107 @@
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.carousel-indicators .active {
+    width: 48px;
+    height: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, orange 20%, yellow 200%);
+}
+
+.carousel-indicators {
+    margin-bottom: -30px;
+}
+
+.buy-now-button {
+    padding: 10px 15px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 8px;
+    transition: all linear .3s;
+}
+
+.buy-now-button:hover {
+    border: 2px solid #111;
+    background-color: #fff;
+    color: #111;
+    border-radius: 8px;
+    transition: all linear .3s;
+}
+
+section#banner {
+    padding-bottom: 100px;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+section#smartphone {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+section#laptop {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.bd-highlight a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+}
+
+
+.pic1 img {
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px 20px 5px 20px;
+    padding: 20px 10px;
+}
+
+
+.pic2 img {
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px 5px 20px 5px;
+    padding: 20px 10px;
+    margin-bottom: 15px;
+}
+
+
+.pic3 img {
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 20px 5px 20px 5px;
+    padding: 20px 10px;
+}
+
+.cat-head {
+    text-align: center;
+}
+
+.cat-head-line {
+    height: 10px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.cat-content {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
